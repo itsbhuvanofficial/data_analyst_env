@@ -1,0 +1,5 @@
+name: data_analyst_env
+version: "0.1.0"
+description: "A real-world Data Analyst environment where an agent queries a SQL database to answer business metrics."
+action: SQLAction
+observation: SQLObservation

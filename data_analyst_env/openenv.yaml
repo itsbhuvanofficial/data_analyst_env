@@ -1,0 +1,12 @@
+name: data_analyst_env
+version: "0.1.0"
+description: "A real-world Data Analyst environment where an agent queries a SQL database to answer business metrics."
+action: SQLAction
+observation: SQLObservation
+tasks:
+  - id: task_1
+    name: "Easy: User Count"
+  - id: task_2
+    name: "Medium: Top Customer"
+  - id: task_3
+    name: "Hard: Revenue Analysis"

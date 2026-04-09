@@ -1,0 +1,27 @@
+name: data_analyst_env
+version: "0.1.0"
+description: "A real-world Data Analyst environment for SQL querying."
+action: SQLAction
+observation: SQLObservation
+tasks:
+  - id: "task_1"
+    name: "Easy: User Count"
+    difficulty: "easy"
+    grader:
+      type: "exact_match"
+      field: "answer"
+      target: "5"
+  - id: "task_2"
+    name: "Medium: Top Customer"
+    difficulty: "medium"
+    grader:
+      type: "exact_match"
+      field: "answer"
+      target: "whale@example.com"
+  - id: "task_3"
+    name: "Hard: Revenue Analysis"
+    difficulty: "hard"
+    grader:
+      type: "exact_match"
+      field: "answer"
+      target: "2950"
